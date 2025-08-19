@@ -1,0 +1,89 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(185, 185, 212);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#container {
+    height: 80vh;
+    width: 90%;
+    background-color: black;
+    margin: 30px auto;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+}
+
+#right {
+    display: flex;
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    justify-content: center;
+}
+
+#blueprint {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    padding: 20px;
+}
+
+#blueprint table {
+    border: 3px solid white;
+    width: 150px;
+    border-collapse: collapse;
+}
+
+#blueprint table td {
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#score h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.4em;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+#score table {
+    border: 3px solid black;
+    width: 350px;
+    border-collapse: collapse;
+}
+
+#score table td {
+    border: 3px solid black;
+    font-size: 2.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+}
+
+.score-value {
+    text-align: right;
+    width: 50px;
+}
+
+#building {
+    background-color: yellow;
+    padding: 20px;
+}
